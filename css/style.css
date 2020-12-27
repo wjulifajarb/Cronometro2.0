@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+  background-color:rgb(99, 90, 224);
+  
+}
+/* --------------- */
+/*  Header - menu  */
+/* --------------- */
+nav {
+  text-align: absolute;
+  
+}
+nav > a{
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: Calibri,Arial;
+
+}
+nav > a:hover{
+  text-decoration: underline;
+ 
+}
+
+/* --------------- */
+/*    Cuerpo base  */
+/* --------------- */
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+}
+/* --------------- */
+/*  Cronometro     */
+/* --------------- */
+.chronometer{
+display: flex;
+align-items: right;
+}
+#screen {
+	font-family: Calibri,Arial;
+	font-weight: 300;
+	font-size: 45px;
+	width: 330px;
+	height: 50px;
+	color:white;
+    
+    
+}
+.buttons {
+width: 400px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.boton {
+	border-radius: 10px;
+	width: 100px;
+
+	height: 30px;
+	margin: 5px;
+	border: 1px solid hsl(211, 53%, 84%);
+  color: white;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  outline: none;
+  text-shadow: 0px -1px 1px white;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.boton{
+   background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+}
+.boton:active{
+   background-image: linear-gradient(rgb(112, 112, 177),#4da6da);
+   text-shadow:      0px 1px 1px blue;
+}
+
+/* --------------- */
+/*  redes-sociales */
+/* --------------- */
+.contenedor-redes-sociales {
+
+
+}
+/* --------------- */
+/*  Animacion      */
+/* --------------- */
+#animacion1{
+  display: flex;
+  align-items: left;
+    width: 50%;
+    height: 50%;
+
+    animation-name: siluetas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction:normal;
+    animation-timing-function: linear;
+
+}
+
+@keyframes siluetas{
+    0%{ width: 450px;
+        height: 450px;
+        background: url(/img/3-removebg-preview.png)
+    }
+  10%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/4-removebg-preview.png)
+  }
+  30%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/5-removebg-preview.png)
+  }
+  50%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/6-removebg-preview.png)
+  }
+  70%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/6-removebg-preview.png)
+  }
+  90%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/7-removebg-preview.png)
+  }
+  100%{
+    width: 450px;
+    height: 450px;
+      background: url(/img/8-removebg-preview.png)
+  }
+
