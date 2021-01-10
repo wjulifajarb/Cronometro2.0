@@ -1,23 +1,21 @@
 html {
 	margin: 0;
 	padding: 0;
-  background-color:rgb(99, 90, 224);
+  background-color:rgb(142, 139, 209);
   
 }
 /* --------------- */
 /*  Header - menu  */
 /* --------------- */
 nav {
-  text-align: absolute;
-  
+  text-align: right; 
 }
 nav > a{
   color: white;
-  font-weight: 300;
+  font-size: 150;
   text-decoration: none;
   margin-right: 10px;
-  font-family: Calibri,Arial;
-
+  font-family: 'Bodoni Moda', serif;
 }
 nav > a:hover{
   text-decoration: underline;
@@ -45,7 +43,7 @@ nav > a:hover{
 }
 .item2 {
   grid-area: 2 / 2 / 8 / 6;
-  background-image: url("../img/9-removebg-preview.png");
+  background-image: url("/img/9-removebg-preview.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -88,13 +86,11 @@ display: flex;
 align-items: right;
 }
 #screen {
-  text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Arial;
-	font-weight: 300;
-	font-size: 45px;
-	width: 330px;
-	height: 50px;
-	color:white; 
+  text-align: auto;
+	font-family: 'Bodoni Moda', serif;
+	font-size: 40px;
+  color:white; 
+  align-items: right;
 }
 /*.buttons {
 width: 400px;
@@ -111,9 +107,8 @@ justify-content: center;
 	border: 1px solid hsl(211, 53%, 84%);
   color: white;
   cursor: pointer;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 200;
-  outline: none;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 40%;
   text-shadow: 0px -1px 1px white;
   text-transform: uppercase;
   transition: all 0.2s ease;
